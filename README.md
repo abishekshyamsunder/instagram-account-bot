@@ -15,7 +15,7 @@ This project aims to automatically create an instagram account without any user 
 - login.py: The program that is the work-horse of the project. It contains the code that will automatically create a temporary mail-id; and use that to create an instagram account.  
 - mail_signup.py: Program that only creates a temporary mail-id *(not required for running of project)*  
 - mouse_test.py: Program that is used to find the position of the mouse pointer, and various buttons on the screen to facilitate automation. *(not required for running of the project)*
-- chromedriver84: chrome driver used by the selenium python package to work with google chrome browser (download the version that corresponds with the version of chrome on your machine). The folder that this file is located in must be added to the PATH variable. (This can be done by opening that folder in the terminal and entering `export PATH="$pwd:$PATH")`.  
+- chromedriver84: chrome driver used by the selenium python package to work with google chrome browser (download the version that corresponds with the version of chrome on your machine). The folder that this file is located in must be added to the PATH variable. (This can be done by opening that folder in the terminal and entering `export PATH="$pwd:$PATH" `).  
 
 ## Working/ Interacting with the project
 After the required packages are installed and the chrome driver's location has been added to the path variable run `python login.py`.  
