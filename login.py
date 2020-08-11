@@ -32,11 +32,11 @@ def main():
 	driver.implicitly_wait(10)
 
 
-	print(pyautogui.position())
+# 	print(pyautogui.position())
 
-	time.sleep(10)
+# 	time.sleep(10)
 
-	print(pyautogui.position())
+# 	print(pyautogui.position())
 
 # 	email = dom.find_element_by_name('emailOrPhone')
 # 	fullname = dom.find_element_by_name('fullName')
