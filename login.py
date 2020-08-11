@@ -38,10 +38,10 @@ def main():
 
 	print(pyautogui.position())
 
-	email = dom.find_element_by_name('emailOrPhone')
-	fullname = dom.find_element_by_name('fullName')
-	username = dom.find_element_by_name('username')
-	password = dom.find_element_by_name('password')
+# 	email = dom.find_element_by_name('emailOrPhone')
+# 	fullname = dom.find_element_by_name('fullName')
+# 	username = dom.find_element_by_name('username')
+# 	password = dom.find_element_by_name('password')
 
 	email = driver.find_element_by_css_selector("input[name='emailOrPhone']")
 	fullname = driver.find_element_by_css_selector("input[name='fullName']")
